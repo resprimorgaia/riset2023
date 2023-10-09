@@ -16,7 +16,7 @@ Model dibangun dengan memanfaatkan arsitektur DenseNet121 yang sudah disediakan 
 ---
 
 ### Website
-Kerangka website menggunakan framework python Streamlit yang sangat mendukung dalam pengaplikasian projek data mining. Tatutan website yang telah dihosting https://deteksirimpang.streamlit.app/
+Kerangka website menggunakan framework python Streamlit yang sangat mendukung dalam pengaplikasian projek data mining. Tatutan website yang telah dihosting pada https://share.streamlit.io/ adalah https://deteksirimpang.streamlit.app/
 ![image](https://github.com/resprimorgaia/riset2023/assets/113764627/0d7577d7-7255-4bf5-8105-9ab8842cf41c)
 
 ![image](https://github.com/resprimorgaia/riset2023/assets/113764627/0d872544-37c9-4ac4-b6b4-6a4683ad76a1)
