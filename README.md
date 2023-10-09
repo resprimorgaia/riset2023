@@ -1,5 +1,5 @@
 # Aplikasi Deteksi Rimpang Berbasis Website dengan Streamlit
-Aplikasi ini saya buat dengan menggunakan pemodelan Convolutional Neural Network dengan akurasi 97%, dari model yang sudah disimpan pada format h5 dimuat pada kerangka streamlit yang sebelumnya sudah saya bangun. Projek ini dapat berjalan di local dengan python versi 3.8.18, ataupun secara online.
+Rimpang yang diklasifikasi terbatas pada jenis Jahe, Kunyit, dan Lengkuas. Aplikasi ini saya buat dengan menggunakan pemodelan Convolutional Neural Network dengan akurasi 97%, dari model yang sudah disimpan pada format h5 dimuat pada kerangka streamlit yang sebelumnya sudah saya bangun. Projek ini dapat berjalan di local dengan python versi 3.8.18, ataupun secara online.
 Beberapa dependensi yang digunakan pada projek ini adalah :
 
 * streamlit
@@ -16,7 +16,10 @@ Model dibangun dengan memanfaatkan arsitektur DenseNet121 yang sudah disediakan 
 ---
 
 ### Website
-Kerangka website menggunakan framework python Streamlit yang sangat mendukung dalam pengaplikasian projek data mining. Tatutan website yang telah dihosting.
+Kerangka website menggunakan framework python Streamlit yang sangat mendukung dalam pengaplikasian projek data mining. Tatutan website yang telah dihosting https://deteksirimpang.streamlit.app/
+![image](https://github.com/resprimorgaia/riset2023/assets/113764627/0d7577d7-7255-4bf5-8105-9ab8842cf41c)
+
+![image](https://github.com/resprimorgaia/riset2023/assets/113764627/0d872544-37c9-4ac4-b6b4-6a4683ad76a1)
 
 
 ---
