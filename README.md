@@ -36,19 +36,19 @@ Anda bisa mengganti kata "coba" dengan nama lain yang anda kehendaki. Kemudian a
 ```
 Ganti kata "coba" dengan nama lain yang anda buat sebelumnya
 
-2.   Install beberapa dependensi yang digunakan, jika anda sudah mengunduh projeknya bisa melakukan dengan cara pada anaconda prompt arahkan pada folder tempat anda menyimpan.
+2.   Install beberapa dependensi yang digunakan, jika anda sudah mengunduh projeknya bisa melakukan dengan cara pada anaconda prompt arahkan pada direktori tempat anda menyimpan.
 ```
 # pip install -r requirements.txt
 ```
-Jika anda belum mengunduh silahkan mengikuti perintah berikut.
+Jika anda belum mengunduhnya silahkan mengikuti perintah berikut:
 ```
 # pip install streamlit==1.27.2 Pillow=10.0.1 numpy==1.24.3 tensorflow==2.13.0
 ```
-3.   Unduh projek ini dan simpan pada direktori yang dikendaki keudian pada anaconda prompt arahkan pada direktori tempat anda menyimpan dengan perintah cd lokasi_direktori. Sebagai contoh saya menyimpannya pada direktori C:/Users/NamaSaya/AI Mastery/Coba/riset2023-main maka perintahnya adalah
+3.   Unduh projek ini dan simpan pada direktori yang dikehendaki kemudian pada anaconda prompt arahkan pada direktori tempat anda menyimpan dengan perintah cd lokasi_direktori. Sebagai contoh saya menyimpannya pada direktori C:/Users/NamaSaya/AI Mastery/Coba/riset2023-main maka perintahnya adalah:
 ```
 # cd AI Masteri/Coba/riset2023-main
 ```
-Anda bisa menyesuaikannya dengan direktori tempat anda kehendaki. Jika sudah anda bisa menjalakan pada local dengan cara
+Anda bisa menyesuaikannya dengan direktori dimana anda menyimpan projek ini. Jika sudah anda bisa menjalakan pada local dengan cara:
 ```
 # streamlit run app.py
 ```
