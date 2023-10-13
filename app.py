@@ -37,18 +37,18 @@ if uploaded_file is not None:
     st.image(uploaded_file, caption="Gambar yang diunggah.", use_column_width=True)
     st.write("")
 
-    # Menambahkan tombol untuk klasifikasi
-    if st.button("Klasifikasi"):
-        # Simpan file gambar untuk prediksi di folder 'upload'
-        image_path = os.path.join("upload", uploaded_file.name)
-        with open(image_path, "wb") as f:
-            f.write(uploaded_file.getbuffer())
+    # Melakukan prediksi ketika gambar diunggah
+    st.write("Melakukan prediksi...")
+    # Simpan file gambar untuk prediksi di folder 'upload'
+    image_path = os.path.join("upload", uploaded_file.name)
+    with open(image_path, "wb") as f:
+        f.write(uploaded_file.getbuffer())
 
-        # Melakukan prediksi
-        predictions = predict(image_path, loaded_model)
-        predicted_class = classes[np.argmax(predictions)]
-        accuracy = np.max(predictions) * 100  # Menghitung akurasi dalam persen
+    # Melakukan prediksi
+    predictions = predict(image_path, loaded_model)
+    predicted_class = classes[np.argmax(predictions)]
+    accuracy = np.max(predictions) * 100  # Menghitung akurasi dalam persen
 
-        # Menampilkan hasil prediksi dan akurasi
-        st.write(f"Hasil Klasifikasi: {predicted_class}")
-        st.write(f"Akurasi: {accuracy:.2f}%")
+    # Menampilkan hasil prediksi dan akurasi
+    st.write(f"Hasil Klasifikasi: {predicted_class}")
+    st.write(f"Akurasi: {accuracy:.2f}%")
