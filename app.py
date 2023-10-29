@@ -29,7 +29,7 @@ st.write("Upload gambar rimpang (Jahe, Kunyit, Lengkuas) yang diidentifikasi.")
 uploaded_file = st.file_uploader("Pilih sebuah gambar...", type=["jpg", "jpeg", "png"])
 
 # Load model DenseNet121
-model_path = 'model/resnanda-rempah-97.11.h5'  # Gantilah dengan path model Anda
+model_path = 'model/resnanda-DenseNet169-95.51.h5'  # Gantilah dengan path model Anda
 loaded_model = load_model(model_path)
 
 if uploaded_file is not None:
