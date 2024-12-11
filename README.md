@@ -1,4 +1,4 @@
-# Aplikasi Deteksi Rimpang Berbasis Website dengan Streamlit
+# Aplikasi Deteksi Obat Herbal Madura Berbasis Website dengan Streamlit
 Rimpang yang diklasifikasi terbatas pada jenis Jahe, Kunyit, dan Lengkuas. Aplikasi ini saya buat dengan menggunakan pemodelan Convolutional Neural Network dengan akurasi 97%, dari model yang sudah disimpan pada format h5 dimuat pada kerangka streamlit yang sebelumnya sudah saya bangun. Projek ini dapat berjalan di local dengan python versi 3.8.18, ataupun secara online.
 Beberapa dependensi yang digunakan pada projek ini adalah :
 
